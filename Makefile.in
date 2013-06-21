@@ -57,7 +57,7 @@ CFLAGS      = @CFLAGS@
 LDFLAGS     = @LDFLAGS@
 LIBS        = @LIBS@
 RM          = rm -f
-LIBTOOL     = ./libtool
+LIBTOOL     = ./libtool --tag=CC
 SHTOOL      = ./shtool
 
 LIBS        = libmm.la
